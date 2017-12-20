@@ -1,0 +1,46 @@
+.gallery{
+
+	width:90%;
+	margin:10px auto;
+
+}
+
+.gallery img{
+	margin:10px;
+}
+
+.filter-item data-title{
+	width:600px;
+}
+
+#search{
+	width:80%;
+	margin: 0px auto;
+
+}
+
+input[type=text]{
+
+		padding:10px;
+		width:60%;
+		margin:20px 100px 20px 200px;
+		border-radius: 20px;
+	}
+
+
+ img{
+
+ 	width: 250px;
+
+ } 
+
+ p{
+
+ 	display:none;
+
+ }
+
+ .row{
+ 	width:80%;
+ 	margin:0px auto;
+ }

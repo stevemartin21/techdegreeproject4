@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="lightbox.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="example.css">
+      
+    <meta charset="UTF-8">
+    <title>Interactive Photo Gallery</title>
+   
+</head>
+<body>
+    
+   
+   
+
+   <div class="row">
+            <!-- A basic setup of simple mode filter controls, all you have to do is use data-filter="all"
+            for an unfiltered gallery and then the values of your categories to filter between them -->
+            <ul class="simplefilter">
+               
+                <li class="active" data-filter="all">All</li>
+                <li data-filter="1">Water</li>
+                <li data-filter="2">Mountain</li>
+                <li data-filter="3">Meadow</li>
+                <li data-filter="4">Dry Climate</li>
+                <li data-filter="5">Wet Climate</li>
+
+               
+            </ul>
+        </div>
+
+      <div class="gallery">   
+
+         <div id="search">
+        <input type="text" placeholder="Search(16pt)" name="text-search" data-search>
+    </div>
+
+
+            
+        <div class="filtr-container">
+           
+            <div class="filtr-item" data-category="4">
+                <a href="photos/01.jpg" title="Hay Bales" data-lightbox="landscapes"  data-title="I love hay bales. Took this snap on a drive through the countryside past some straw fields.">
+                    <img src="thumbnails/01.jpg" class="name" alt="I love hay bales. Took this snap on a drive through the countryside past some straw fields.">
+                    <p>I love hay bales. Took this snap on a drive through the countryside past some straw fields.</p>
+                </a>
+            </div>
+        
+
+              
+            <div class="filtr-item" data-category="1, 2, 5">
+                <a href="photos/02.jpg" title="Lake" data-lightbox="landscapes" data-title="The lake was so calm today. We had a great view of the snow on the mountains from here.">
+                    <img src="thumbnails/02.jpg" alt="The lake was so calm today. We had a great view of the snow on the mountains from here.">
+                    <p>The lake was so calm today. We had a great view of the snow on the mountains from here.</p>
+                </a>
+            </div>
+      
+
+            
+            <div class="filtr-item" data-category="3, 5">
+                <a href="photos/03.jpg" title="Canyon" data-lightbox="landscapes" data-title="I hiked to the top of the mountain and got this picture of the canyon and trees below.">
+                    <img src="thumbnails/03.jpg" alt="I hiked to the top of the mountain and got this picture of the canyon and trees below.">
+                    <p>I hiked to the top of the mountain and got this picture of the canyon and trees below.</p>
+                </a>
+            </div>
+       
+
+             
+            <div class="filtr-item" data-category="1">
+                <a href="photos/04.jpg" title="Iceberg" data-lightbox="landscapes" data-title="It was amazing to see an iceberg up close, it was so cold but didn’t snow today.">
+                    <img src="thumbnails/04.jpg" alt="It was amazing to see an iceberg up close, it was so cold but didn’t snow today.">
+                    <p>It was amazing to see an iceberg up close, it was so cold but didn’t snow today.</p>
+                </a>
+            </div>
+     
+
+             
+            <div class="filtr-item" data-category="2, 4">
+                <a href="photos/05.jpg" title="Desert" data-lightbox="landscapes" data-title="The red cliffs were beautiful. It was really hot in the desert but we did a lot of walking through the canyons.">
+                    <img src="thumbnails/05.jpg" alt="The red cliffs were beautiful. It was really hot in the desert but we did a lot of walking through the canyons.">
+                    <p>The red cliffs were beautiful. It was really hot in the desert but we did a lot of walking through the canyons.</p>
+                </a>
+            </div>
+      
+
+            <div class="filtr-item" data-category="4, 3">
+                <a href="photos/06.jpg" title="Fall" data-lightbox="landscapes" data-title="Fall is coming, I love when the leaves on the trees start to change color.">
+                    <img src="thumbnails/06.jpg" alt="Fall is coming, I love when the leaves on the trees start to change color.">
+                    <p>Fall is coming, I love when the leaves on the trees start to change color.</p>
+                </a>
+            </div>
+  
+
+            
+            <div class="filtr-item" data-category="2, 3, 5">
+                <a href="photos/07.jpg" title="Plantation" data-lightbox="landscapes" data-title="I drove past this plantation yesterday, everything is so green!">
+                    <img src="thumbnails/07.jpg" alt="I drove past this plantation yesterday, everything is so green!">
+                    <p>I drove past this plantation yesterday, everything is so green!</p>
+                </a>
+            </div>
+       
+             
+            <div class="filtr-item" data-category="4">
+                <a href="photos/08.jpg" title="Dunes" data-lightbox="landscapes" data-title="My summer vacation to the Oregon Coast. I love the sandy dunes!">
+                    <img src="thumbnails/08.jpg" alt="My summer vacation to the Oregon Coast. I love the sandy dunes!">
+                    <p>My summer vacation to the Oregon Coast. I love the sandy dunes!</p>
+                </a>
+            </div>
+       
+
+            
+            <div class="filtr-item" data-category="5">
+                <a href="photos/09.jpg" title="Countryside Lane" data-lightbox="landscapes" data-title="We enjoyed a quiet stroll down this countryside lane.">
+                    <img src="thumbnails/09.jpg" alt="We enjoyed a quiet stroll down this countryside lane.">
+                    <p>We enjoyed a quiet stroll down this countryside lane.</p>
+                </a>
+            </div>
+     
+
+              
+            <div class="filtr-item" data-category="1, 5">
+                <a href="photos/10.jpg" title="Sunset" data-lightbox="landscapes" data-title="Sunset at the coast! The sky turned a lovely shade of orange.">
+                    <img src="thumbnails/10.jpg" alt="Sunset at the coast! The sky turned a lovely shade of orange.">
+                    <p>Sunset at the coast! The sky turned a lovely shade of orange.</p>
+                </a>
+            </div>
+     
+
+            <div class="filtr-item" data-category="2, 3, 5">
+                <a href="photos/11.jpg" title="Cave" data-lightbox="landscapes" data-title="I did a tour of a cave today adn the view of the landscape below was breathtaking.">
+                    <img src="thumbnails/11.jpg" alt="I did a tour of a cave today adn the view of the landscape below was breathtaking.">
+                    <p>I did a tour of a cave today adn the view of the landscape below was breathtaking.</p>
+                </a>
+            </div>
+       
+
+            <div class="filtr-item" data-category="2 , 3">
+                <a href="photos/12.jpg" title="Bluebells" data-lightbox="landscapes" data-title="I walked through this meadow of bluebells and got a good view of the snow on the mountain before the fog came in.">
+                    <img src="thumbnails/12.jpg" alt="I walked through this meadow of bluebells and got a good view of the snow on the mountain before the fog came in.">
+                    <p>I walked through this meadow of bluebells and got a good view of the snow on the mountain before the fog came in.</p>
+                </a>
+           
+  
+     </div>
+    </div>
+</div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="lightbox.js"></script>
+    <script src="jquery.filterizr.js"></script>
+    <script>
+        (function($){
+            $(document).ready(function(){
+                var filterizd = $('.filtr-container').filterizr({});
+            });
+        })(jQuery);
+    </script>
+</body>
+</html>
